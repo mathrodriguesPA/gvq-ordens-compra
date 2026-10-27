@@ -1,0 +1,19 @@
+{
+  "name": "gvq-ordens-de-compra",
+  "version": "1.0.0",
+  "description": "Sistema de solicitação e análise de Ordens de Compra de gado - GVQ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "better-sqlite3": "11.8.1",
+    "express": "4.21.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
